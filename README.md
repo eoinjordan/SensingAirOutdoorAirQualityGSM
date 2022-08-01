@@ -5,6 +5,8 @@
 :Revision: version#
 :License: Apache 2.0
 
+![image](https://user-images.githubusercontent.com/11853924/182228274-a2033d70-fdd6-4b30-b18e-9ea6b56a54a5.png)
+
 = Project: SensingAirOutdoorAirQualityGSM
 
 This simple outdoor air quality monitor relies on the arduino iot cloud as a backend. Here I am using GSM as it is for a local park or school. The aim is to help raise awareness to the air quality in local schools by monitoring some of the key pollutants that affect these environments.
@@ -31,11 +33,9 @@ Pair the arduino with your account, use your sims credentials. I have used the a
 
 Create an iot dashboard with the values collected your board, I choose 20 seconds as an interval to conserve battery and allow the CO2 sensor time to warm up - https://create.arduino.cc/projecthub/amalbanyus/create-a-dashboard-with-the-arduino-iot-cloud-1a897b
 
-For example:
-
-1. Open arduino_secrets and fill in your sim and plan details
-2. upload to the iot cloud
-3. create your dashboard
+- 1. Open arduino_secrets and fill in your sim and plan details
+- 2. upload to the iot cloud
+- 3. create your dashboard
 
 == Circuit : Assemble the circuit
 
