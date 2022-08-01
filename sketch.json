@@ -1,0 +1,26 @@
+{
+  "cpu": {
+    "fqbn": "arduino:samd:mkrgsm1400",
+    "name": "Arduino MKR GSM 1400",
+    "type": "serial"
+  },
+  "secrets": [
+    {
+      "name": "SECRET_APN",
+      "value": ""
+    },
+    {
+      "name": "SECRET_PIN",
+      "value": ""
+    },
+    {
+      "name": "SECRET_USERNAME",
+      "value": ""
+    },
+    {
+      "name": "SECRET_PASSWORD",
+      "value": ""
+    }
+  ],
+  "included_libs": []
+}
